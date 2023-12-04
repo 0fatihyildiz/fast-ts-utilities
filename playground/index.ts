@@ -1,6 +1,13 @@
-import { handler } from 'ts-bundle-template'
+import { ReadOnly ,DeepMutable } from '../dist'
 
-handler('test', 'test', (err: any, result: any) => {
-  // eslint-disable-next-line no-console
-  console.log(err, result)
-})
+const readOnlyObj: ReadOnly<DeepMutable<{
+  a: number;
+  b: {
+    c: number;
+  };
+}>> = {
+  a: 1,
+  b: {
+    c: 2,
+  },
+};
