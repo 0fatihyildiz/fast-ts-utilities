@@ -1,20 +1,22 @@
 {
-  "name": "ts-bundle-template",
+  "name": "@0fatihyildiz/fast-ts-utilities",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "packageManager": "pnpm@8.10.0",
-  "description": "add description",
-  "author": "add author",
+  "description": "TypeScript utilities designed for fast and secure development.",
+  "author": "0fatihyildiz",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/productdevbook",
-  "homepage": "https://github.com/productdevbookcom/ts-bundle-template",
+  "homepage": "https://github.com/0fatihyildiz/fast-ts-utilities",
   "repository": {
     "type": "git",
-    "url": "https://github.com/productdevbookcom/ts-bundle-template.git"
+    "url": "https://github.com/0fatihyildiz/fast-ts-utilities.git"
   },
-  "bugs": "https://github.com/productdevbookcom/ts-bundle-template/issues",
+  "bugs": "https://github.com/0fatihyildiz/fast-ts-utilities/issues",
   "keywords": [
-    "add keywords"
+    "type-safety",
+    "typescript-utilities",
+    "typescript-best-practices",
+    "code-repetition-reduction"
   ],
   "exports": {
     ".": {
